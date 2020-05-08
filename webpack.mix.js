@@ -6,7 +6,6 @@ mix.setPublicPath('static');
 mix.sass('resources/scss/site.scss', 'static/css/site.css');
 mix.ts('resources/js/main.ts', 'static/js/site.js');
 
-
 // Disable license.txt files, see https://github.com/JeffreyWay/laravel-mix/issues/2304
 mix.options({
   terser: {
